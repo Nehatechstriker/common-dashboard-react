@@ -1,0 +1,30 @@
+.modal-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+  }
+  
+  .modal-button .btn-primary {
+    padding: 11px 25px;
+    background: #faab1b;
+    color: #fff !important;
+    border-radius: 5px;
+    text-transform: uppercase;
+  
+  }
+  
+  .modal-button .btn-light {
+    padding: 11px 25px;
+    border-color: #faab1b;
+    color: #faab1b;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .icon_wrap {
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+    display: flex;
+    margin: 40px auto;
+  }

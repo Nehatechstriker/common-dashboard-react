@@ -1,0 +1,36 @@
+.chat-class{
+    max-width: 80%;
+    margin-left: 240px !important;
+    margin-top: 68px;
+}
+.list-data{
+    height: 550px !important;
+    background-color: #ffffff;
+}
+.phone_code{
+    width: 230px;
+    border-radius: 6px;
+    background-color: #27293d;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 7px 18px 7px 18px;
+    border-color: #2b3553;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.phone_code option .some.option.class.name {
+    width: 160px;
+}
+.image-chat{
+    position:absolute;
+    bottom: 5px;
+  }
+  .cs-message-input__content-editor-wrapper {
+    margin-left: 20px !important;
+}
+.doc-chat{
+    position:absolute;
+    bottom: 8px;
+  }
+.up-doc{
+    width: 15px;
+    height: 15px;
+}

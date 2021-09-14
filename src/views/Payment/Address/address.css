@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+html {
+	background-color: black;
+	font-family: Helvetica;
+}
+
+h2 {
+	padding-top: 50px;
+}
+
+h3 {
+	color: orange;
+}
+
+.submit-form {
+	padding: 0 50px;
+}
+
+label {
+	display: block;
+	padding-bottom: 5px;
+}
+
+.input {
+	border: 1px solid gray;
+	padding: 5px;
+	width: 250px;
+	font-size: 16px;
+}
+
+.checkbox-input + label {
+	display: inline;
+}
+
+button {
+	background-color: orange;
+	border: none;
+	font-size: 16px;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	outline: none;
+}
+.btn-delete{
+	color: red !important;
+}
+
+button:hover {
+	background-color: #cc8400;
+}
+.btn-payment img{
+	width: 40px;
+}
+.btn-payment i{
+	color: #1f8af8;
+    font-size: 35px;
+}
+.row-display{
+	display: grid !important;
+	float:right;
+}
+.container-form {
+	width: 800px;
+	position: fixed;
+	top: 20%;
+	left: 60%;
+	transform: translate(-50%, -25%);
+}
+
+.form {
+	background-color: white;
+}
+
+.row5 {	
+	text-align: center;
+	padding: 50px;
+}
+
+.row1 > *, .row2 > *, .row3 > *, .row4 > *, .row5 > * {
+	padding: 10px 5px;
+    display: inline-grid;
+}
+.row1-check {
+	padding: 10px 5px;
+	display: block;
+}
+
+.billing .row2 {
+	padding-top: 20px;
+}
+
+.checkbox label {
+	vertical-align: middle;
+}
+
+.home-button {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.home-button button {
+	font-family: "Roboto Slab";
+    background-color: orange;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.home-button button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.shipping h3{
+	color: #1e1e2c;
+	text-align: center;
+	font-weight: bold;
+}
+.address-delete{
+	color: red;
+    float: right;
+}
+
+
+.grid-address {
+	border: 1px solid #e3e5e5;
+	padding: 20px;
+	border-radius: 0;
+	max-width: 300px;
+	flex-direction: row;
+  }
+  
+  .grid-address p {
+	margin-bottom: 10px !important;
+	font-size: 16px;
+	line-height: normal;
+	text-transform: capitalize;
+	padding: 8px 0;
+  }
+
+  .grid-address .add_new_address {
+	color: #005b36 !important;
+	border: 2px solid #005b36;
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	display: block;
+	transition: 0.5s ease-in;
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .grid-address .add_new_address:hover {
+	background: #005b36;
+	color: #fff !important;
+  }
+
+  
+.add_new p {
+	text-decoration: underline;
+	color: orange;
+	font-size: 1.2rem;
+	font-weight: 800;
+	cursor: pointer;
+	text-decoration-thickness: 0.1em;
+	text-decoration-thickness: 3px;
+	margin-left: 100px;
+  }
+  
